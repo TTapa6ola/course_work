@@ -1,777 +1,1473 @@
 {
   "schedule" : [ {
-    "dateTime" : 34240,
+    "dateTime" : 33764,
     "name" : "1",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4102.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 6021.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 8325,
+    "dateTime" : 18843,
     "name" : "2",
     "cargoType" : "CONTAINER",
-    "quantity" : 2411.0,
+    "quantity" : 4051.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 42167,
+    "dateTime" : 6690,
     "name" : "3",
     "cargoType" : "CONTAINER",
-    "quantity" : 3716.0,
+    "quantity" : 924.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 37205,
+    "dateTime" : 22222,
     "name" : "4",
-    "cargoType" : "LIQUID",
-    "quantity" : 18832.0,
+    "cargoType" : "BULK",
+    "quantity" : 8611.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 24802,
+    "dateTime" : 38707,
     "name" : "5",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4209.0,
+    "cargoType" : "BULK",
+    "quantity" : 975.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 33638,
+    "dateTime" : 27269,
     "name" : "6",
     "cargoType" : "CONTAINER",
-    "quantity" : 127.0,
+    "quantity" : 1709.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 1697,
+    "dateTime" : 37698,
     "name" : "7",
     "cargoType" : "BULK",
-    "quantity" : 11385.0,
+    "quantity" : 2821.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 9010,
+    "dateTime" : 2230,
     "name" : "8",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4874.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 12497.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 18701,
+    "dateTime" : 43036,
     "name" : "9",
     "cargoType" : "BULK",
-    "quantity" : 10820.0,
+    "quantity" : 15974.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 25483,
+    "dateTime" : 12393,
     "name" : "10",
-    "cargoType" : "LIQUID",
-    "quantity" : 4065.0,
+    "cargoType" : "BULK",
+    "quantity" : 22179.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 4072,
+    "dateTime" : 6146,
     "name" : "11",
     "cargoType" : "LIQUID",
-    "quantity" : 17900.0,
+    "quantity" : 20269.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 20045,
+    "dateTime" : 38615,
     "name" : "12",
     "cargoType" : "CONTAINER",
-    "quantity" : 4736.0,
+    "quantity" : 4084.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 29798,
+    "dateTime" : 21430,
     "name" : "13",
-    "cargoType" : "LIQUID",
-    "quantity" : 24113.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 2546.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 25597,
+    "dateTime" : 897,
     "name" : "14",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4426.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 23502,
-    "name" : "15",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4638.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 36325,
-    "name" : "16",
     "cargoType" : "LIQUID",
-    "quantity" : 23241.0,
+    "quantity" : 3306.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 43125,
+    "dateTime" : 7845,
+    "name" : "15",
+    "cargoType" : "BULK",
+    "quantity" : 1913.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 19985,
+    "name" : "16",
+    "cargoType" : "BULK",
+    "quantity" : 16687.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 18204,
     "name" : "17",
-    "cargoType" : "CONTAINER",
-    "quantity" : 2831.0,
+    "cargoType" : "BULK",
+    "quantity" : 23716.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 9735,
+    "dateTime" : 16017,
     "name" : "18",
     "cargoType" : "CONTAINER",
-    "quantity" : 108.0,
+    "quantity" : 834.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 29877,
+    "dateTime" : 4151,
     "name" : "19",
-    "cargoType" : "CONTAINER",
-    "quantity" : 2537.0,
+    "cargoType" : "BULK",
+    "quantity" : 5406.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 3331,
+    "dateTime" : 16631,
     "name" : "20",
     "cargoType" : "LIQUID",
-    "quantity" : 20570.0,
+    "quantity" : 20322.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 24615,
+    "dateTime" : 15805,
     "name" : "21",
-    "cargoType" : "BULK",
-    "quantity" : 18877.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 16428,
-    "name" : "22",
     "cargoType" : "CONTAINER",
-    "quantity" : 372.0,
+    "quantity" : 4571.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 15062,
+    "dateTime" : 11022,
+    "name" : "22",
+    "cargoType" : "LIQUID",
+    "quantity" : 19618.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 41739,
     "name" : "23",
     "cargoType" : "CONTAINER",
-    "quantity" : 3429.0,
+    "quantity" : 2947.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 10588,
+    "dateTime" : 4073,
     "name" : "24",
-    "cargoType" : "CONTAINER",
-    "quantity" : 1404.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 11327.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 16814,
+    "dateTime" : 7773,
     "name" : "25",
     "cargoType" : "BULK",
-    "quantity" : 1447.0,
+    "quantity" : 24344.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 3728,
+    "dateTime" : 12159,
     "name" : "26",
-    "cargoType" : "CONTAINER",
-    "quantity" : 1996.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 1526.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 3318,
+    "dateTime" : 6266,
     "name" : "27",
     "cargoType" : "BULK",
-    "quantity" : 22428.0,
+    "quantity" : 6478.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 10224,
+    "dateTime" : 39080,
     "name" : "28",
-    "cargoType" : "LIQUID",
-    "quantity" : 23942.0,
+    "cargoType" : "BULK",
+    "quantity" : 3747.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 42203,
+    "dateTime" : 30641,
     "name" : "29",
-    "cargoType" : "BULK",
-    "quantity" : 21921.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 23203.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 18963,
+    "dateTime" : 5365,
     "name" : "30",
-    "cargoType" : "BULK",
-    "quantity" : 10293.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 4040.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 8821,
+    "dateTime" : 7006,
     "name" : "31",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4249.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 15600,
-    "name" : "32",
-    "cargoType" : "LIQUID",
-    "quantity" : 16715.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 24864,
-    "name" : "33",
     "cargoType" : "BULK",
-    "quantity" : 1454.0,
+    "quantity" : 12634.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 2955,
-    "name" : "34",
+    "dateTime" : 9931,
+    "name" : "32",
+    "cargoType" : "BULK",
+    "quantity" : 18458.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 35868,
+    "name" : "33",
     "cargoType" : "LIQUID",
-    "quantity" : 888.0,
+    "quantity" : 5604.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 21766,
+    "dateTime" : 29245,
+    "name" : "34",
+    "cargoType" : "BULK",
+    "quantity" : 12558.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 9965,
     "name" : "35",
-    "cargoType" : "CONTAINER",
-    "quantity" : 3802.0,
+    "cargoType" : "BULK",
+    "quantity" : 23955.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 12551,
+    "dateTime" : 17235,
     "name" : "36",
     "cargoType" : "LIQUID",
-    "quantity" : 14151.0,
+    "quantity" : 9788.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 2324,
+    "dateTime" : 23940,
     "name" : "37",
-    "cargoType" : "LIQUID",
-    "quantity" : 10789.0,
+    "cargoType" : "BULK",
+    "quantity" : 23611.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 23057,
+    "dateTime" : 606,
     "name" : "38",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4797.0,
+    "cargoType" : "BULK",
+    "quantity" : 15703.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 32679,
+    "dateTime" : 2257,
     "name" : "39",
-    "cargoType" : "LIQUID",
-    "quantity" : 17523.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 3437.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 9911,
+    "dateTime" : 27909,
     "name" : "40",
     "cargoType" : "LIQUID",
-    "quantity" : 1980.0,
+    "quantity" : 22386.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 14221,
+    "dateTime" : 3897,
     "name" : "41",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4933.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 20305,
-    "name" : "42",
-    "cargoType" : "CONTAINER",
-    "quantity" : 2375.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 15184,
-    "name" : "43",
     "cargoType" : "LIQUID",
-    "quantity" : 14677.0,
+    "quantity" : 22898.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 28959,
-    "name" : "44",
+    "dateTime" : 15925,
+    "name" : "42",
     "cargoType" : "BULK",
-    "quantity" : 9338.0,
+    "quantity" : 1707.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 30840,
+    "dateTime" : 17478,
+    "name" : "43",
+    "cargoType" : "BULK",
+    "quantity" : 19307.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 13961,
+    "name" : "44",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4623.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 20280,
     "name" : "45",
     "cargoType" : "LIQUID",
-    "quantity" : 8670.0,
+    "quantity" : 8376.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 4176,
+    "dateTime" : 15232,
     "name" : "46",
     "cargoType" : "BULK",
-    "quantity" : 17929.0,
+    "quantity" : 5108.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 26109,
+    "dateTime" : 37954,
     "name" : "47",
     "cargoType" : "BULK",
-    "quantity" : 34.0,
+    "quantity" : 16088.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 18426,
+    "dateTime" : 8512,
     "name" : "48",
-    "cargoType" : "BULK",
-    "quantity" : 10703.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 17273.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 12266,
+    "dateTime" : 27504,
     "name" : "49",
-    "cargoType" : "LIQUID",
-    "quantity" : 19602.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 35462,
-    "name" : "50",
-    "cargoType" : "LIQUID",
-    "quantity" : 502.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 25331,
-    "name" : "51",
     "cargoType" : "CONTAINER",
-    "quantity" : 3986.0,
+    "quantity" : 1257.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 34802,
+    "dateTime" : 21660,
+    "name" : "50",
+    "cargoType" : "BULK",
+    "quantity" : 19156.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 4804,
+    "name" : "51",
+    "cargoType" : "BULK",
+    "quantity" : 21638.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 36654,
     "name" : "52",
     "cargoType" : "BULK",
-    "quantity" : 12960.0,
+    "quantity" : 18900.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 7015,
+    "dateTime" : 35327,
     "name" : "53",
     "cargoType" : "BULK",
-    "quantity" : 5168.0,
+    "quantity" : 7327.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 6108,
+    "dateTime" : 40341,
     "name" : "54",
-    "cargoType" : "BULK",
-    "quantity" : 20885.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 42124,
-    "name" : "55",
     "cargoType" : "LIQUID",
-    "quantity" : 7239.0,
+    "quantity" : 4753.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 34754,
+    "dateTime" : 40227,
+    "name" : "55",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4895.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 29990,
     "name" : "56",
     "cargoType" : "BULK",
-    "quantity" : 23084.0,
+    "quantity" : 1796.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 21198,
+    "dateTime" : 19971,
     "name" : "57",
-    "cargoType" : "LIQUID",
-    "quantity" : 7904.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 742.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 37559,
+    "dateTime" : 19970,
     "name" : "58",
-    "cargoType" : "BULK",
-    "quantity" : 6020.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 1529.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 31943,
+    "dateTime" : 43141,
     "name" : "59",
     "cargoType" : "CONTAINER",
-    "quantity" : 3891.0,
+    "quantity" : 2948.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 2883,
+    "dateTime" : 43001,
     "name" : "60",
-    "cargoType" : "BULK",
-    "quantity" : 1323.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 36288,
-    "name" : "61",
-    "cargoType" : "BULK",
-    "quantity" : 12666.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 36372,
-    "name" : "62",
-    "cargoType" : "BULK",
-    "quantity" : 12191.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 16077,
-    "name" : "63",
     "cargoType" : "LIQUID",
-    "quantity" : 4918.0,
+    "quantity" : 10389.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 2016,
-    "name" : "64",
+    "dateTime" : 6422,
+    "name" : "61",
+    "cargoType" : "LIQUID",
+    "quantity" : 13803.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 38106,
+    "name" : "62",
     "cargoType" : "CONTAINER",
-    "quantity" : 4552.0,
+    "quantity" : 2929.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 38258,
+    "dateTime" : 33697,
+    "name" : "63",
+    "cargoType" : "BULK",
+    "quantity" : 719.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 17514,
+    "name" : "64",
+    "cargoType" : "LIQUID",
+    "quantity" : 8655.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 22430,
     "name" : "65",
     "cargoType" : "CONTAINER",
-    "quantity" : 184.0,
+    "quantity" : 4174.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 34705,
+    "dateTime" : 17430,
     "name" : "66",
     "cargoType" : "BULK",
-    "quantity" : 7626.0,
+    "quantity" : 23320.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 37877,
+    "dateTime" : 2214,
     "name" : "67",
-    "cargoType" : "CONTAINER",
-    "quantity" : 4022.0,
+    "cargoType" : "BULK",
+    "quantity" : 16597.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 16145,
+    "dateTime" : 6159,
     "name" : "68",
-    "cargoType" : "BULK",
-    "quantity" : 21722.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 3021.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 14367,
+    "dateTime" : 25397,
     "name" : "69",
-    "cargoType" : "LIQUID",
-    "quantity" : 14052.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 2619.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 42150,
+    "dateTime" : 11591,
     "name" : "70",
-    "cargoType" : "CONTAINER",
-    "quantity" : 3933.0,
+    "cargoType" : "BULK",
+    "quantity" : 2105.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 34630,
+    "dateTime" : 24557,
     "name" : "71",
-    "cargoType" : "BULK",
-    "quantity" : 1927.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 6672.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 34597,
+    "dateTime" : 32316,
     "name" : "72",
-    "cargoType" : "LIQUID",
-    "quantity" : 3679.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 2595.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 14664,
+    "dateTime" : 27228,
     "name" : "73",
-    "cargoType" : "CONTAINER",
-    "quantity" : 1316.0,
+    "cargoType" : "BULK",
+    "quantity" : 24440.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 1171,
+    "dateTime" : 22348,
     "name" : "74",
-    "cargoType" : "BULK",
-    "quantity" : 16013.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 3667.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 12756,
+    "dateTime" : 3726,
     "name" : "75",
-    "cargoType" : "LIQUID",
-    "quantity" : 6570.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 15421,
-    "name" : "76",
-    "cargoType" : "LIQUID",
-    "quantity" : 3050.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 1714,
-    "name" : "77",
-    "cargoType" : "BULK",
-    "quantity" : 13813.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 29341,
-    "name" : "78",
-    "cargoType" : "LIQUID",
-    "quantity" : 9555.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 18660,
-    "name" : "79",
     "cargoType" : "CONTAINER",
-    "quantity" : 2471.0,
+    "quantity" : 3907.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 17372,
+    "dateTime" : 26370,
+    "name" : "76",
+    "cargoType" : "BULK",
+    "quantity" : 11804.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 14190,
+    "name" : "77",
+    "cargoType" : "LIQUID",
+    "quantity" : 16217.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 27648,
+    "name" : "78",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2776.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 23168,
+    "name" : "79",
+    "cargoType" : "LIQUID",
+    "quantity" : 8907.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 22,
     "name" : "80",
     "cargoType" : "LIQUID",
-    "quantity" : 17716.0,
+    "quantity" : 19914.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 8904,
+    "dateTime" : 38823,
     "name" : "81",
-    "cargoType" : "CONTAINER",
-    "quantity" : 3356.0,
+    "cargoType" : "BULK",
+    "quantity" : 6608.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 3067,
+    "dateTime" : 19399,
     "name" : "82",
     "cargoType" : "BULK",
-    "quantity" : 17241.0,
+    "quantity" : 22008.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 39872,
+    "dateTime" : 39212,
     "name" : "83",
-    "cargoType" : "BULK",
-    "quantity" : 21225.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 15655.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 8953,
+    "dateTime" : 11604,
     "name" : "84",
-    "cargoType" : "CONTAINER",
-    "quantity" : 2394.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 16565.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 27861,
+    "dateTime" : 25001,
     "name" : "85",
-    "cargoType" : "BULK",
-    "quantity" : 10763.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 9349,
-    "name" : "86",
-    "cargoType" : "BULK",
-    "quantity" : 15669.0,
-    "unloadStartTime" : 0,
-    "unloadFinishTime" : 0,
-    "extraStandingTime" : 0
-  }, {
-    "dateTime" : 34259,
-    "name" : "87",
     "cargoType" : "CONTAINER",
-    "quantity" : 1788.0,
+    "quantity" : 4996.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 19291,
-    "name" : "88",
+    "dateTime" : 23104,
+    "name" : "1",
+    "cargoType" : "CONTAINER",
+    "quantity" : 952.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 14402,
+    "name" : "2",
+    "cargoType" : "LIQUID",
+    "quantity" : 2643.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 19146,
+    "name" : "3",
+    "cargoType" : "CONTAINER",
+    "quantity" : 479.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 17904,
+    "name" : "4",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2424.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 19627,
+    "name" : "5",
+    "cargoType" : "LIQUID",
+    "quantity" : 16521.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 28512,
+    "name" : "6",
+    "cargoType" : "CONTAINER",
+    "quantity" : 1834.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 34720,
+    "name" : "7",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2864.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 20133,
+    "name" : "8",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4155.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 27677,
+    "name" : "9",
+    "cargoType" : "CONTAINER",
+    "quantity" : 3957.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 40245,
+    "name" : "10",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4457.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 23595,
+    "name" : "11",
     "cargoType" : "BULK",
-    "quantity" : 24252.0,
+    "quantity" : 18975.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 23240,
+    "dateTime" : 33971,
+    "name" : "12",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2008.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 35331,
+    "name" : "13",
+    "cargoType" : "LIQUID",
+    "quantity" : 4486.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 20721,
+    "name" : "14",
+    "cargoType" : "BULK",
+    "quantity" : 962.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 19409,
+    "name" : "15",
+    "cargoType" : "BULK",
+    "quantity" : 12499.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 31047,
+    "name" : "16",
+    "cargoType" : "LIQUID",
+    "quantity" : 16816.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 16245,
+    "name" : "17",
+    "cargoType" : "LIQUID",
+    "quantity" : 1804.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 13837,
+    "name" : "18",
+    "cargoType" : "BULK",
+    "quantity" : 7034.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 35258,
+    "name" : "19",
+    "cargoType" : "BULK",
+    "quantity" : 24419.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 18823,
+    "name" : "20",
+    "cargoType" : "CONTAINER",
+    "quantity" : 574.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 14395,
+    "name" : "21",
+    "cargoType" : "CONTAINER",
+    "quantity" : 1848.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 19472,
+    "name" : "22",
+    "cargoType" : "CONTAINER",
+    "quantity" : 873.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 25232,
+    "name" : "23",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2277.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 11227,
+    "name" : "24",
+    "cargoType" : "BULK",
+    "quantity" : 17163.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 37134,
+    "name" : "25",
+    "cargoType" : "BULK",
+    "quantity" : 8988.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 7930,
+    "name" : "26",
+    "cargoType" : "BULK",
+    "quantity" : 8019.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 13736,
+    "name" : "27",
+    "cargoType" : "BULK",
+    "quantity" : 2421.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 32020,
+    "name" : "28",
+    "cargoType" : "BULK",
+    "quantity" : 12790.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 37551,
+    "name" : "29",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4612.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 18450,
+    "name" : "30",
+    "cargoType" : "LIQUID",
+    "quantity" : 15512.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 29011,
+    "name" : "31",
+    "cargoType" : "CONTAINER",
+    "quantity" : 3865.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 36718,
+    "name" : "32",
+    "cargoType" : "LIQUID",
+    "quantity" : 13728.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 4921,
+    "name" : "33",
+    "cargoType" : "BULK",
+    "quantity" : 12868.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 13148,
+    "name" : "34",
+    "cargoType" : "LIQUID",
+    "quantity" : 2307.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 21625,
+    "name" : "35",
+    "cargoType" : "BULK",
+    "quantity" : 20812.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 18320,
+    "name" : "36",
+    "cargoType" : "BULK",
+    "quantity" : 2647.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 31887,
+    "name" : "37",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4497.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 36015,
+    "name" : "38",
+    "cargoType" : "LIQUID",
+    "quantity" : 22275.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 22050,
+    "name" : "39",
+    "cargoType" : "BULK",
+    "quantity" : 8496.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 5917,
+    "name" : "40",
+    "cargoType" : "LIQUID",
+    "quantity" : 23380.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 16123,
+    "name" : "41",
+    "cargoType" : "BULK",
+    "quantity" : 9023.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 24426,
+    "name" : "42",
+    "cargoType" : "BULK",
+    "quantity" : 21102.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 4735,
+    "name" : "43",
+    "cargoType" : "LIQUID",
+    "quantity" : 12514.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 31155,
+    "name" : "44",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2010.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 24172,
+    "name" : "45",
+    "cargoType" : "LIQUID",
+    "quantity" : 24545.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 3749,
+    "name" : "46",
+    "cargoType" : "LIQUID",
+    "quantity" : 21395.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 1072,
+    "name" : "47",
+    "cargoType" : "CONTAINER",
+    "quantity" : 3759.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 43059,
+    "name" : "48",
+    "cargoType" : "LIQUID",
+    "quantity" : 19290.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 25582,
+    "name" : "49",
+    "cargoType" : "BULK",
+    "quantity" : 12911.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 7209,
+    "name" : "50",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4532.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 9081,
+    "name" : "51",
+    "cargoType" : "CONTAINER",
+    "quantity" : 1854.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 17730,
+    "name" : "52",
+    "cargoType" : "LIQUID",
+    "quantity" : 2587.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 33884,
+    "name" : "53",
+    "cargoType" : "LIQUID",
+    "quantity" : 10728.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 771,
+    "name" : "54",
+    "cargoType" : "LIQUID",
+    "quantity" : 2324.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 28326,
+    "name" : "55",
+    "cargoType" : "LIQUID",
+    "quantity" : 10370.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 12667,
+    "name" : "56",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2490.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 27490,
+    "name" : "57",
+    "cargoType" : "BULK",
+    "quantity" : 20027.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 30095,
+    "name" : "58",
+    "cargoType" : "BULK",
+    "quantity" : 5503.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 37298,
+    "name" : "59",
+    "cargoType" : "BULK",
+    "quantity" : 8941.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 38333,
+    "name" : "60",
+    "cargoType" : "LIQUID",
+    "quantity" : 13843.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 20928,
+    "name" : "61",
+    "cargoType" : "CONTAINER",
+    "quantity" : 192.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 2695,
+    "name" : "62",
+    "cargoType" : "BULK",
+    "quantity" : 21511.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 877,
+    "name" : "63",
+    "cargoType" : "BULK",
+    "quantity" : 23655.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 16579,
+    "name" : "64",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4235.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 38232,
+    "name" : "65",
+    "cargoType" : "BULK",
+    "quantity" : 15845.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 40644,
+    "name" : "66",
+    "cargoType" : "LIQUID",
+    "quantity" : 13754.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 10734,
+    "name" : "67",
+    "cargoType" : "LIQUID",
+    "quantity" : 13312.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 32067,
+    "name" : "68",
+    "cargoType" : "LIQUID",
+    "quantity" : 1142.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 11386,
+    "name" : "69",
+    "cargoType" : "BULK",
+    "quantity" : 16193.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 9756,
+    "name" : "70",
+    "cargoType" : "LIQUID",
+    "quantity" : 22102.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 32771,
+    "name" : "71",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2414.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 40740,
+    "name" : "72",
+    "cargoType" : "LIQUID",
+    "quantity" : 22623.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 9782,
+    "name" : "73",
+    "cargoType" : "LIQUID",
+    "quantity" : 2244.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 24648,
+    "name" : "74",
+    "cargoType" : "CONTAINER",
+    "quantity" : 3555.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 11892,
+    "name" : "75",
+    "cargoType" : "LIQUID",
+    "quantity" : 4782.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 23218,
+    "name" : "76",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4433.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 17055,
+    "name" : "77",
+    "cargoType" : "LIQUID",
+    "quantity" : 24379.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 3808,
+    "name" : "78",
+    "cargoType" : "BULK",
+    "quantity" : 10312.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 31707,
+    "name" : "79",
+    "cargoType" : "BULK",
+    "quantity" : 18770.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 40191,
+    "name" : "80",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2323.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 29220,
+    "name" : "81",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2671.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 3973,
+    "name" : "82",
+    "cargoType" : "LIQUID",
+    "quantity" : 9385.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 42256,
+    "name" : "83",
+    "cargoType" : "CONTAINER",
+    "quantity" : 2267.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 31652,
+    "name" : "84",
+    "cargoType" : "LIQUID",
+    "quantity" : 8897.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 23329,
+    "name" : "85",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4200.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 15491,
+    "name" : "86",
+    "cargoType" : "CONTAINER",
+    "quantity" : 1182.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 289,
+    "name" : "87",
+    "cargoType" : "BULK",
+    "quantity" : 66.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 33434,
+    "name" : "88",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4670.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 4327,
     "name" : "89",
     "cargoType" : "LIQUID",
-    "quantity" : 21571.0,
+    "quantity" : 58.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 19685,
+    "dateTime" : 30088,
     "name" : "90",
-    "cargoType" : "BULK",
-    "quantity" : 19249.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 7309.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 28316,
+    "dateTime" : 10175,
     "name" : "91",
-    "cargoType" : "BULK",
-    "quantity" : 16349.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 3128.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 25980,
+    "dateTime" : 41461,
     "name" : "92",
-    "cargoType" : "BULK",
-    "quantity" : 19036.0,
+    "cargoType" : "CONTAINER",
+    "quantity" : 4698.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 29423,
+    "dateTime" : 28392,
     "name" : "93",
     "cargoType" : "LIQUID",
-    "quantity" : 16917.0,
+    "quantity" : 1395.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 30600,
+    "dateTime" : 32085,
     "name" : "94",
     "cargoType" : "CONTAINER",
-    "quantity" : 2226.0,
+    "quantity" : 3120.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 37573,
+    "dateTime" : 10705,
     "name" : "95",
-    "cargoType" : "BULK",
-    "quantity" : 18761.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 4420.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 31452,
+    "dateTime" : 4201,
     "name" : "96",
-    "cargoType" : "BULK",
-    "quantity" : 9200.0,
+    "cargoType" : "LIQUID",
+    "quantity" : 7718.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0
   }, {
-    "dateTime" : 16696,
+    "dateTime" : 33203,
     "name" : "97",
+    "cargoType" : "LIQUID",
+    "quantity" : 18518.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 38766,
+    "name" : "98",
     "cargoType" : "BULK",
-    "quantity" : 2897.0,
+    "quantity" : 24701.0,
+    "unloadStartTime" : 0,
+    "unloadFinishTime" : 0,
+    "extraStandingTime" : 0
+  }, {
+    "dateTime" : 26253,
+    "name" : "99",
+    "cargoType" : "CONTAINER",
+    "quantity" : 4044.0,
     "unloadStartTime" : 0,
     "unloadFinishTime" : 0,
     "extraStandingTime" : 0

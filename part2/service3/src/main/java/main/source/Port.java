@@ -5,7 +5,9 @@ import com.fasterxml.jackson.core.JsonEncoding;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
@@ -83,9 +85,9 @@ public class Port {
             calcFine();
 
             for (Cargo cargo : Cargo.values()) {
-                System.out.println("old fine " + cargo + oldFines.get(cargo));
+                /*System.out.println("old fine " + cargo + oldFines.get(cargo));
                 System.out.println("new fine " + cargo + mapOfFine.get(cargo));
-                System.out.println("number of cranes " + countOfCranes.get(cargo));
+                System.out.println("number of cranes " + countOfCranes.get(cargo));*/
                 if (mapOfFine.get(cargo) <= oldFines.get(cargo)) {
                     oldFines.put(cargo, mapOfFine.get(cargo));
                 } else {
@@ -104,14 +106,19 @@ public class Port {
 
         for (Cargo cargo : Cargo.values()) {
             runCargo(cargo);
+
+
+            for (Thread thread : mapOfThreadCranes.get(cargo)) {
+                thread.start();
+            }
+
+            for (Thread thread : mapOfThreadCranes.get(cargo)) {
+                thread.join();
+            }
         }
 
         for (Cargo cargo : Cargo.values()) {
             for (Ship ship : mapOfShipsAfterModeling.get(cargo)) {
-                if (ship.getExtraStandingTime() > 0) {
-                    ship.setUnloadStartTime(43200);
-                    ship.setUnloadFinishTime(43200);
-                }
                 meanWaitingTime += ship.getUnloadStartTime() - ship.getDateTime();
             }
         }
@@ -146,14 +153,6 @@ public class Port {
         }
 
         mapOfThreadCranes.put(cargo, threadCranes);
-
-        for (Thread thread : mapOfThreadCranes.get(cargo)) {
-            thread.start();
-        }
-
-        for (Thread thread : mapOfThreadCranes.get(cargo)) {
-            thread.join();
-        }
     }
 
     private static void setAndCalcRandomStat() {
@@ -184,7 +183,7 @@ public class Port {
     private static void removeExtraShips(){
         List<Ship> shipsToRemove = new LinkedList<>();
         for (Ship ship : schedule) {
-            if (ship.getDateTime() > 29 * 1440 || ship.getDateTime() <= 0) {
+            if (ship.getDateTime() > 30 * 1440 || ship.getDateTime() <= 0) {
                 shipsToRemove.add(ship);
             }
         }
@@ -224,10 +223,35 @@ public class Port {
     public static void parseFromJson() throws IOException {
         RestTemplateBuilder builder = new RestTemplateBuilder();
         RestTemplate restTemplate = builder.build();
-        File fileSchedule = restTemplate.getForObject("http://localhost:8080/get-schedule", File.class);
+        Scanner in = new Scanner(System.in);
+        Schedule schedule;
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        Schedule schedule = objectMapper.readValue(fileSchedule, Schedule.class);
+        System.out.println("Generate new schedule?\n yes \t no");
+        String answer = in.nextLine();
+
+        if (answer.equals("yes")) {
+            String stringSchedule = restTemplate.getForObject("http://localhost:8080/get-schedule", String.class);
+            ObjectMapper objectMapper = new ObjectMapper();
+            schedule = objectMapper.readValue(stringSchedule, Schedule.class);
+        } else {
+            try {
+                String name = new String();
+                while (true) {
+                    System.out.println("Input name of file: ");
+                    name = in.nextLine();
+                    File file = new File(name);
+                    if (file.exists()) {
+                        break;
+                    }
+                }
+                String url = "http://localhost:8080/get-schedule-by-name?args=" + name;
+                schedule = restTemplate.getForObject(url, Schedule.class);
+            } catch (RestClientException e) {
+                System.out.println("Invalid name of file");
+                return;
+            }
+        }
+
         Port.schedule = schedule.getSchedule();
     }
 
@@ -242,9 +266,11 @@ public class Port {
             list.addAll(mapOfShipsAfterModeling.get(cargo));
         }
         list.sort(Comparator.comparingInt(Ship::getDateTime));
+/*
         for (Ship ship : list) {
             System.out.println(ship.receiveStatForPort());
         }
+*/
 
         for (Ship ship : list) {
             generator.writeStartObject();

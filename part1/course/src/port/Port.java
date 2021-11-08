@@ -23,9 +23,9 @@ public class Port {
     public static CyclicBarrier barrier;
     public static volatile Timer timer;
 
-    public static Map<Cargo, List<Thread>> mapOfThreadCranes = new HashMap<>();
-    public static Map<Cargo, List<Crane>> mapOfCranes = new HashMap<>();
-    private Map<Cargo, Integer> countOfCranes = new HashMap<>();
+    public static ConcurrentMap<Cargo, List<Thread>> mapOfThreadCranes = new ConcurrentHashMap<>();
+    public static ConcurrentMap<Cargo, List<Crane>> mapOfCranes = new ConcurrentHashMap<>();
+    private ConcurrentMap<Cargo, Integer> countOfCranes = new ConcurrentHashMap<>();
 
     private Map<Cargo, Integer> mapOfFine = new HashMap<>();
     private int totalFine;
@@ -56,8 +56,8 @@ public class Port {
         runCargos();
         calcFine();
 
-        Map<Cargo, Integer> oldFines = new HashMap<>();
-        Map<Cargo, Boolean> mapOfFlags = new HashMap<>();
+        ConcurrentMap<Cargo, Integer> oldFines = new ConcurrentHashMap<>();
+        ConcurrentMap<Cargo, Boolean> mapOfFlags = new ConcurrentHashMap<>();
         for (Cargo cargo : Cargo.values()) {
             oldFines.put(cargo, mapOfFine.get(cargo));
             mapOfFlags.put(cargo, false);
@@ -74,12 +74,12 @@ public class Port {
             calcFine();
 
             for (Cargo cargo : Cargo.values()) {
-                System.out.println("old fine " + cargo + oldFines.get(cargo));
+/*                System.out.println("old fine " + cargo + oldFines.get(cargo));
                 System.out.println("new fine " + cargo + mapOfFine.get(cargo));
-                System.out.println("number of cranes " + countOfCranes.get(cargo));
+                System.out.println("number of cranes " + countOfCranes.get(cargo));*/
                 if (mapOfFine.get(cargo) <= oldFines.get(cargo)) {
                     oldFines.put(cargo, mapOfFine.get(cargo));
-                } else {
+                } else if (!mapOfFlags.get(cargo)){
                     countOfCranes.put(cargo, countOfCranes.get(cargo) - 1);
                     mapOfFlags.put(cargo, true);
                 }
@@ -95,14 +95,18 @@ public class Port {
 
         for (Cargo cargo : Cargo.values()) {
             runCargo(cargo);
+
+            for (Thread thread : mapOfThreadCranes.get(cargo)) {
+                thread.start();
+            }
+
+            for (Thread thread : mapOfThreadCranes.get(cargo)) {
+                thread.join();
+            }
         }
 
         for (Cargo cargo : Cargo.values()) {
             for (Ship ship : mapOfShipsAfterModeling.get(cargo)) {
-                if (ship.getExtraStandingTime() > 0) {
-                    ship.setUnloadStartTime(43200);
-                    ship.setUnloadFinishTime(43200);
-                }
                 meanWaitingTime += ship.getUnloadStartTime() - ship.getDateTime();
             }
         }
@@ -137,14 +141,6 @@ public class Port {
         }
 
         mapOfThreadCranes.put(cargo, threadCranes);
-
-        for (Thread thread : mapOfThreadCranes.get(cargo)) {
-            thread.start();
-        }
-
-        for (Thread thread : mapOfThreadCranes.get(cargo)) {
-            thread.join();
-        }
     }
     
     private void setAndCalcRandomStat() {
@@ -175,13 +171,12 @@ public class Port {
     private void removeExtraShips(){
         List<Ship> shipsToRemove = new LinkedList<>();
         for (Ship ship : schedule) {
-            if (ship.getDateTime() > 29 * 1440 || ship.getDateTime() <= 0) {
+            if (ship.getDateTime() > 30 * 1440 || ship.getDateTime() <= 0) {
                 shipsToRemove.add(ship);
             }
         }
-        for (Ship ship : shipsToRemove) {
-            schedule.remove(ship);
-        }
+
+        schedule.removeAll(shipsToRemove);
     }
 
     private void calcFine() {

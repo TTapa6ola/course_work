@@ -24,7 +24,7 @@ import java.util.Scanner;
 @RestController
 public class WriteToJson {
     @GetMapping("get-schedule")
-    public static File writeToJson(String args) throws IOException {
+    public static String writeToJson(String args) throws IOException {
         RestTemplateBuilder builder = new RestTemplateBuilder();
         RestTemplate restTemplate = builder.build();
         String stringSchedule = restTemplate.getForObject("http://localhost:8090/generate-schedule", String.class);
@@ -39,10 +39,21 @@ public class WriteToJson {
         Path path = args == null ? Paths.get("schedule.json") : Paths.get(args);
 
         ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
-        Writer jsonSchedule = new FileWriter(String.valueOf(path));
-        objectWriter.writeValue(jsonSchedule, schedule);
+        String json = null;
+        try {
+            json = objectMapper.writeValueAsString(schedule);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
 
-        return new File(String.valueOf(path));
+        return json;
+    }
+
+    @GetMapping(value = "/get-string", params = {"args"})
+    public static String getString(@RequestParam String args) {
+        String str = new String(args);
+
+        return str;
     }
 
     @GetMapping(value = "/get-schedule-by-name", params = {"args"})
